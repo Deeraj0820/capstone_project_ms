@@ -1,0 +1,56 @@
+{
+  "name": "admin-panel",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "axios": "^1.7.9",
+    "chart.js": "^4.4.0",
+    "cra-template-typescript": "1.2.0",
+    "firebase": "^10.14.1",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "sweetalert2": "^11.16.0",
+    "web-vitals": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.12.0",
+    "autoprefixer": "^10.4.15",
+    "customize-cra": "^1.0.0",
+    "postcss": "^8.4.31",
+    "react-app-rewired": "^2.2.1",
+    "tailwindcss": "^3.3.3"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "resolutions": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
